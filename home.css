@@ -1,0 +1,153 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Libre Baskerville", serif;
+}
+.pink {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  background-image: url(./img/evie-s-bSVGnUCk4tk-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh; /* Adjust the height as needed */
+  z-index: -1;
+}
+
+.account {
+  cursor: pointer;
+}
+
+.signin {
+  display: none;
+  background-color: white;
+}
+
+.sign0 {
+  position: absolute;
+  top: 0;
+  z-index: 2;
+}
+
+.anchor {
+  border-bottom: 3px solid pink;
+}
+
+.anchor:hover {
+  color: rgb(247, 84, 111);
+}
+
+.arrow {
+  cursor: pointer;
+}
+
+.pic {
+  background-image: url(./img/sasha-stories-B3qyHGLxz-w-unsplash.jpg);
+  height: 600px;
+  width: 100%;
+  background-size: cover;
+  border-top-left-radius: 300px;
+}
+
+.pic2 {
+  border-top-left-radius: 200px;
+  border-top-right-radius: 200px;
+  width: 350px;
+  padding-top: 80px;
+}
+
+.img {
+  background-image: url(./img/cms-banner-01.jpg);
+  background-size: cover;
+  border-top-left-radius: 100px;
+}
+
+.img1 {
+  background-image: url(./img/cms-banner-02.jpg);
+  background-size: cover;
+
+  border-bottom-right-radius: 100px;
+}
+
+.count {
+  font-family: monospace;
+}
+
+.bgproduct {
+  background-image: url(./img/bg_newproductslider.png);
+  width: 75%;
+  height: 100%;
+  background-size: cover;
+}
+
+swiper-container {
+  width: 85%;
+  height: 100%;
+}
+
+swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-hover {
+  cursor: pointer;
+  background-color: #f5f5f5;
+}
+.swiper-hover:hover {
+  background-color: rgb(245, 171, 183);
+  color: white;
+}
+.swiper-shadow {
+  filter: drop-shadow(8px 8px 10px gray);
+}
+#swiper-container {
+  width: 80%;
+  height: 100%;
+}
+
+#swiper-slide img {
+  width: 100%;
+  height: 100%;
+  filter: drop-shadow(8px 8px 10px gray);
+}
+
+.Category {
+  padding-top: 10px;
+  text-align: center;
+}
+h5 a {
+  text-decoration: none;
+  color: black;
+  text-decoration: underline;
+}
+.black {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.493);
+}
+
+.client:hover {
+  color: pink;
+}
+
+@media screen and (max-width: 1000px) {
+  .media {
+    margin-left: 75vw;
+    border: 2px solid;
+  }
+}
+.flowers {
+  background-color: pink;
+  width: 140px;
+  height: 45px;
+  position: fixed;
+  top: 45%;
+  right: -20px;
+  z-index: 5;
+  border-radius: 50px;
+}
